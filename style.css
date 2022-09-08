@@ -1,0 +1,65 @@
+body
+{
+    background: url(imagenes/milky-way-6538786.jpg);
+    background-size: 100%;
+}
+h1, p , .listado
+{
+    color: #ffffffa6;
+}
+.titulo
+{
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    padding: 1em;
+    clear: left;
+}
+.introduccion, .peso, .listado
+{
+    font-size: 1.5em;
+    margin: 2em 3em 1em;
+    text-align: justify;
+}
+#resultado
+{
+    text-align: justify;
+    font-size: 1.5em;
+}
+#resultado strong
+{
+    font-weight: bold;
+}
+footer
+{
+    
+    
+    text-align: center;
+    padding: 40px; 
+}
+footer img
+{
+    width: 20%;
+}
+.copyright
+{
+    color: #ffffff;
+}
+/*para q se vea mejor en celular*/
+@media screen and (max-width:480px)
+{
+    h1{
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+
+    .caja, .principal, .mapaContenido, .contenidoDiferenciales, .video
+    {
+        width: auto;
+    }
+    .listaDiferenciales, .imagenDiferenciales{
+        width: 100%;
+    }
+}

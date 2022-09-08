@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="esp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widith=device-width">
+    <title> Tu peso en distintos lugares </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <main>
+      <h1 class="titulo">Tu peso en otros lugares del sistema solar</h1>
+      <p class="introduccion">
+        Con el continuo desarrollo y evolución de la tegnología en los ultimos años, hemos desarrollado una continua curiosidad hacia temas que antes no contemplabamos, uno de los mas estudiados y a la vez desconocidos para nosotros es el espacio exterior. 
+      </p> 
+      <p class="introduccion">
+        El actual desarrollo tegnologico nos permite pensar en que en algun momento podremos conocer algunos de los lugares mas cercanos a nuestro planeta. 
+      </p> 
+      <form> 
+        <fieldset class="listado">
+          <legend>A continuación te mostraremos un listado de lugares en el sistema solar con los cuales puedes calcular cuanto pesarias si decidieras ir de visita.</legend>
+          <select id="num_lugar" >
+              <option>1. El Sol</option>
+              <option>2. Mercurio</option>
+              <option>3. venus</option>
+              <option>4. La Luna</option>
+              <option>5. Marte</option>
+              <option>6. Jupiter</option>
+              <option>7. Saturno</option>
+              <option>8. Urano</option>
+              <option>9. Neptuno</option>
+              <option>10. Pluton</option>
+          </select>
+        </fieldset>   
+      </form>
+      <p class="peso">
+        Cuanto pesas?
+        <input type="text" id="pesoTierra" />
+        <input type="button" value="Vamos" id="botoncito"/>
+        <br/><br/><br/>
+        <output id="resultado"></output>
+      </p>
+    </main>
+    
+    <script src="peso.js"></script>
+    <footer>
+      <img src="imagenes/logo_solo_fondo_oscuro.jpg" alt="Logo Personal">
+      <p class="copyright">&copy Copyright Sebastian Gelacio - 2022.</p>
+  </footer>
+  </body>
+</html>
